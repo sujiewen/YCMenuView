@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B95FEF1222BFF1F00A58028 /* SYCMenuView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = SYCMenuView.podspec; path = ../SYCMenuView.podspec; sourceTree = "<group>"; };
 		E5160E372137967000EE6A44 /* YCMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMenuView.m; sourceTree = "<group>"; };
 		E5160E382137967000EE6A44 /* YCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMenuView.h; sourceTree = "<group>"; };
 		E5160E3A2137967F00EE6A44 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		E5DE2D6120AE59A300CA20B1 = {
 			isa = PBXGroup;
 			children = (
+				6B95FEF1222BFF1F00A58028 /* SYCMenuView.podspec */,
 				E5DE2D6C20AE59A300CA20B1 /* Demo */,
 				E5DE2D6B20AE59A300CA20B1 /* Products */,
 			);

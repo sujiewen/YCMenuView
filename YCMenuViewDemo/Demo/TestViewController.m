@@ -48,6 +48,7 @@
     
     // 创建
     YCMenuView *view = [YCMenuView menuWithActions:self.arr width:140 atPoint:P];
+    view.bgColor = [[UIColor blackColor] colorWithAlphaComponent:.5];
 
     // 自定义设置
 //    view.menuColor = [UIColor whiteColor];
@@ -68,7 +69,7 @@
 - (IBAction)buttonItemClick:(UIBarButtonItem *)sender {
     YCMenuView *view = [YCMenuView menuWithActions:self.arr width:140 relyonView:sender];
     view.maxDisplayCount = 10;
-
+    view.bgColor = [[UIColor blackColor] colorWithAlphaComponent:.5];
     [view show];
 
     
@@ -76,19 +77,19 @@
 - (IBAction)button1Click:(UIButton *)sender {
     YCMenuView *view = [YCMenuView menuWithActions:self.arr width:140 relyonView:sender];
     view.maxDisplayCount = 10;
-
+    view.bgColor = [[UIColor blackColor] colorWithAlphaComponent:.5];
     [view show];
 }
 - (IBAction)button2Click:(UIButton *)sender {
     YCMenuView *view = [YCMenuView menuWithActions:self.arr width:140 relyonView:sender];
     view.maxDisplayCount = 10;
-
+    view.bgColor = [[UIColor blackColor] colorWithAlphaComponent:.5];
     [view show];
 }
 - (IBAction)button3Click:(UIButton *)sender {
     YCMenuView *view = [YCMenuView menuWithActions:self.arr width:140 relyonView:sender];
     view.maxDisplayCount = 10;
-
+    view.bgColor = [[UIColor blackColor] colorWithAlphaComponent:.5];
     [view show];
 }
 

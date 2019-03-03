@@ -33,6 +33,8 @@
 @property (nonatomic,strong)  UIColor                       *textColor;
 //设置偏移距离 default = 0（与触摸点在Y轴上的偏移）
 @property (nonatomic,assign)  CGFloat                       offset;
+//遮盖屏幕的颜色,默认是  [[UIColor blackColor] colorWithAlphaComponent:0.1];
+@property (nonatomic,strong) UIColor *bgColor;
 
 // 从关联点创建
 + (instancetype)menuWithActions:(NSArray<YCMenuAction *> *)actions width:(CGFloat)width atPoint:(CGPoint)point;
