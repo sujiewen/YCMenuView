@@ -244,6 +244,7 @@ static NSString *const menuCellID = @"YCMenuCell";
     _textColor = [UIColor blackColor];
     _textFont = [UIFont systemFontOfSize:15.0f];
     _offset = 0.0f;
+    _bgColor = [[UIColor blackColor] colorWithAlphaComponent:0.1];
 }
 
 - (void)setupSubView{
@@ -454,7 +455,7 @@ static NSString *const menuCellID = @"YCMenuCell";
 - (UIView *)bgView{
     if (!_bgView) {
         _bgView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        _bgView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.1];
+        _bgView.backgroundColor = _bgColor;
         _bgView.alpha = 0.0f;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismiss)];
         [_bgView addGestureRecognizer:tap];

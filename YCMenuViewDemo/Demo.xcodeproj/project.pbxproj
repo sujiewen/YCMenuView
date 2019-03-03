@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5160E392137967000EE6A44 /* YCMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5160E372137967000EE6A44 /* YCMenuView.m */; };
+		6B95FEF5222C168E00A58028 /* YCMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B95FEF4222C168E00A58028 /* YCMenuView.m */; };
 		E5160E3C2137968000EE6A44 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5160E3B2137968000EE6A44 /* TestViewController.m */; };
 		E5DE2D6F20AE59A300CA20B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DE2D6E20AE59A300CA20B1 /* AppDelegate.m */; };
 		E5DE2D7220AE59A300CA20B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DE2D7120AE59A300CA20B1 /* ViewController.m */; };
@@ -19,8 +19,8 @@
 
 /* Begin PBXFileReference section */
 		6B95FEF1222BFF1F00A58028 /* SYCMenuView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = SYCMenuView.podspec; path = ../SYCMenuView.podspec; sourceTree = "<group>"; };
-		E5160E372137967000EE6A44 /* YCMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMenuView.m; sourceTree = "<group>"; };
-		E5160E382137967000EE6A44 /* YCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMenuView.h; sourceTree = "<group>"; };
+		6B95FEF3222C168E00A58028 /* YCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMenuView.h; sourceTree = "<group>"; };
+		6B95FEF4222C168E00A58028 /* YCMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMenuView.m; sourceTree = "<group>"; };
 		E5160E3A2137967F00EE6A44 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		E5160E3B2137968000EE6A44 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		E5DE2D6A20AE59A300CA20B1 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +46,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B95FEF2222C168E00A58028 /* YCMenuViewCompont */ = {
+			isa = PBXGroup;
+			children = (
+				6B95FEF3222C168E00A58028 /* YCMenuView.h */,
+				6B95FEF4222C168E00A58028 /* YCMenuView.m */,
+			);
+			name = YCMenuViewCompont;
+			path = ../../YCMenuViewCompont;
+			sourceTree = "<group>";
+		};
 		E5DE2D6120AE59A300CA20B1 = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +76,7 @@
 		E5DE2D6C20AE59A300CA20B1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				E5160E382137967000EE6A44 /* YCMenuView.h */,
-				E5160E372137967000EE6A44 /* YCMenuView.m */,
+				6B95FEF2222C168E00A58028 /* YCMenuViewCompont */,
 				E5160E3A2137967F00EE6A44 /* TestViewController.h */,
 				E5160E3B2137968000EE6A44 /* TestViewController.m */,
 				E5DE2D6D20AE59A300CA20B1 /* AppDelegate.h */,
@@ -154,10 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B95FEF5222C168E00A58028 /* YCMenuView.m in Sources */,
 				E5DE2D7220AE59A300CA20B1 /* ViewController.m in Sources */,
 				E5DE2D7D20AE59A300CA20B1 /* main.m in Sources */,
 				E5DE2D6F20AE59A300CA20B1 /* AppDelegate.m in Sources */,
-				E5160E392137967000EE6A44 /* YCMenuView.m in Sources */,
 				E5160E3C2137968000EE6A44 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
