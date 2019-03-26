@@ -35,6 +35,8 @@
 @property (nonatomic,assign)  CGFloat                       offset;
 //遮盖屏幕的颜色,默认是  [[UIColor blackColor] colorWithAlphaComponent:0.1];
 @property (nonatomic,strong) UIColor *bgColor;
+//文字对其方式,默认是NSTextAlignmentLeft
+@property (nonatomic, assign)  NSTextAlignment              textAlignment;
 
 // 从关联点创建
 + (instancetype)menuWithActions:(NSArray<YCMenuAction *> *)actions width:(CGFloat)width atPoint:(CGPoint)point;

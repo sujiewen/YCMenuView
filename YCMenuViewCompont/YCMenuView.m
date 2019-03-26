@@ -245,6 +245,7 @@ static NSString *const menuCellID = @"YCMenuCell";
     _textFont = [UIFont systemFontOfSize:15.0f];
     _offset = 0.0f;
     _bgColor = [[UIColor blackColor] colorWithAlphaComponent:0.1];
+    _textAlignment = NSTextAlignmentLeft;
 }
 
 - (void)setupSubView{
@@ -421,6 +422,7 @@ static NSString *const menuCellID = @"YCMenuCell";
     cell.textLabel.textColor = _textColor;
     cell.textLabel.text = action.title;
     cell.separatorColor = _separatorColor;
+    cell.textLabel.textAlignment = _textAlignment;
     cell.imageView.image = action.image?action.image:nil;
     
     if (indexPath.row == _actions.count - 1) {

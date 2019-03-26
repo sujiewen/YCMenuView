@@ -18,10 +18,10 @@
     [super viewDidLoad];
     UIImage *image = [UIImage imageNamed:@"ic_filter_category_0"];
     // Do any additional setup after loading the view.
-    YCMenuAction *action = [YCMenuAction actionWithTitle:@"首页" image:image handler:^(YCMenuAction *action) {
+    YCMenuAction *action = [YCMenuAction actionWithTitle:@"首页" image:nil handler:^(YCMenuAction *action) {
         NSLog(@"点击了%@",action.title);
     }];
-    YCMenuAction *action1 = [YCMenuAction actionWithTitle:@"个人" image:image handler:^(YCMenuAction *action) {
+    YCMenuAction *action1 = [YCMenuAction actionWithTitle:@"个人" image:nil handler:^(YCMenuAction *action) {
         NSLog(@"点击了%@",action.title);
     }];
     YCMenuAction *action2 = [YCMenuAction actionWithTitle:@"最新" image:image handler:^(YCMenuAction *action) {
@@ -49,6 +49,7 @@
     // 创建
     YCMenuView *view = [YCMenuView menuWithActions:self.arr width:140 atPoint:P];
     view.bgColor = [[UIColor blackColor] colorWithAlphaComponent:.5];
+    view.textAlignment = NSTextAlignmentCenter;
 
     // 自定义设置
 //    view.menuColor = [UIColor whiteColor];
@@ -90,6 +91,7 @@
     YCMenuView *view = [YCMenuView menuWithActions:self.arr width:140 relyonView:sender];
     view.maxDisplayCount = 10;
     view.bgColor = [[UIColor blackColor] colorWithAlphaComponent:.5];
+    view.textAlignment = NSTextAlignmentCenter;
     [view show];
 }
 
